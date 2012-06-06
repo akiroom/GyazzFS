@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515BD68C157F4B1000BAD56B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515BD68B157F4B1000BAD56B /* Cocoa.framework */; };
+		515BD696157F4B1000BAD56B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515BD694157F4B1000BAD56B /* InfoPlist.strings */; };
+		515BD698157F4B1000BAD56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BD697157F4B1000BAD56B /* main.m */; };
+		515BD69C157F4B1000BAD56B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 515BD69A157F4B1000BAD56B /* Credits.rtf */; };
+		515BD69F157F4B1000BAD56B /* GFSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515BD69E157F4B1000BAD56B /* GFSAppDelegate.m */; };
+		51814C1B157F4B4F001A8FCC /* OSXFUSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51814C1A157F4B4F001A8FCC /* OSXFUSE.framework */; };
+		51814C1F157F4B8B001A8FCC /* GFSMainFuseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51814C1E157F4B8B001A8FCC /* GFSMainFuseController.m */; };
+		51814C41157F4E8E001A8FCC /* SBJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51814C3A157F4E84001A8FCC /* SBJson.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51814C39157F4E84001A8FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC12323D1391D5CC00131607;
+			remoteInfo = SBJson;
+		};
+		51814C3B157F4E84001A8FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC1232521391D5CC00131607;
+			remoteInfo = SBJsonTests;
+		};
+		51814C3D157F4E84001A8FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCC2626913920FC7003D9994;
+			remoteInfo = "sbjson-ios";
+		};
+		51814C3F157F4E84001A8FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCC2627313920FC7003D9994;
+			remoteInfo = "sbjson-iosTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515BD687157F4B1000BAD56B /* GyazzFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyazzFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515BD68B157F4B1000BAD56B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		515BD68E157F4B1000BAD56B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		515BD68F157F4B1000BAD56B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		515BD690157F4B1000BAD56B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		515BD693157F4B1000BAD56B /* GyazzFS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyazzFS-Info.plist"; sourceTree = "<group>"; };
+		515BD695157F4B1000BAD56B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		515BD697157F4B1000BAD56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515BD699157F4B1000BAD56B /* GyazzFS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GyazzFS-Prefix.pch"; sourceTree = "<group>"; };
+		515BD69B157F4B1000BAD56B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		515BD69D157F4B1000BAD56B /* GFSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFSAppDelegate.h; sourceTree = "<group>"; };
+		515BD69E157F4B1000BAD56B /* GFSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFSAppDelegate.m; sourceTree = "<group>"; };
+		51814C1A157F4B4F001A8FCC /* OSXFUSE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSXFUSE.framework; path = Library/Frameworks/OSXFUSE.framework; sourceTree = SDKROOT; };
+		51814C1D157F4B8B001A8FCC /* GFSMainFuseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSMainFuseController.h; sourceTree = "<group>"; };
+		51814C1E157F4B8B001A8FCC /* GFSMainFuseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSMainFuseController.m; sourceTree = "<group>"; };
+		51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SBJson.xcodeproj; path = "json-framework/SBJson.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515BD684157F4B1000BAD56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51814C41157F4E8E001A8FCC /* SBJson.framework in Frameworks */,
+				51814C1B157F4B4F001A8FCC /* OSXFUSE.framework in Frameworks */,
+				515BD68C157F4B1000BAD56B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515BD67C157F4B1000BAD56B = {
+			isa = PBXGroup;
+			children = (
+				51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */,
+				515BD691157F4B1000BAD56B /* GyazzFS */,
+				515BD68A157F4B1000BAD56B /* Frameworks */,
+				515BD688157F4B1000BAD56B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515BD688157F4B1000BAD56B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515BD687157F4B1000BAD56B /* GyazzFS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515BD68A157F4B1000BAD56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51814C1A157F4B4F001A8FCC /* OSXFUSE.framework */,
+				515BD68B157F4B1000BAD56B /* Cocoa.framework */,
+				515BD68D157F4B1000BAD56B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515BD68D157F4B1000BAD56B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515BD68E157F4B1000BAD56B /* AppKit.framework */,
+				515BD68F157F4B1000BAD56B /* CoreData.framework */,
+				515BD690157F4B1000BAD56B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		515BD691157F4B1000BAD56B /* GyazzFS */ = {
+			isa = PBXGroup;
+			children = (
+				51814C1D157F4B8B001A8FCC /* GFSMainFuseController.h */,
+				51814C1E157F4B8B001A8FCC /* GFSMainFuseController.m */,
+				515BD69D157F4B1000BAD56B /* GFSAppDelegate.h */,
+				515BD69E157F4B1000BAD56B /* GFSAppDelegate.m */,
+				515BD692157F4B1000BAD56B /* Supporting Files */,
+			);
+			path = GyazzFS;
+			sourceTree = "<group>";
+		};
+		515BD692157F4B1000BAD56B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515BD693157F4B1000BAD56B /* GyazzFS-Info.plist */,
+				515BD694157F4B1000BAD56B /* InfoPlist.strings */,
+				515BD697157F4B1000BAD56B /* main.m */,
+				515BD699157F4B1000BAD56B /* GyazzFS-Prefix.pch */,
+				515BD69A157F4B1000BAD56B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51814C30157F4E84001A8FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51814C3A157F4E84001A8FCC /* SBJson.framework */,
+				51814C3C157F4E84001A8FCC /* SBJsonTests.octest */,
+				51814C3E157F4E84001A8FCC /* libsbjson-ios.a */,
+				51814C40157F4E84001A8FCC /* sbjson-iosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515BD686157F4B1000BAD56B /* GyazzFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515BD6A5157F4B1100BAD56B /* Build configuration list for PBXNativeTarget "GyazzFS" */;
+			buildPhases = (
+				515BD683157F4B1000BAD56B /* Sources */,
+				515BD684157F4B1000BAD56B /* Frameworks */,
+				515BD685157F4B1000BAD56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyazzFS;
+			productName = GyazzFS;
+			productReference = 515BD687157F4B1000BAD56B /* GyazzFS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515BD67E157F4B1000BAD56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GFS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = akiroom.com;
+			};
+			buildConfigurationList = 515BD681157F4B1000BAD56B /* Build configuration list for PBXProject "GyazzFS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 515BD67C157F4B1000BAD56B;
+			productRefGroup = 515BD688157F4B1000BAD56B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 51814C30157F4E84001A8FCC /* Products */;
+					ProjectRef = 51814C2F157F4E84001A8FCC /* SBJson.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				515BD686157F4B1000BAD56B /* GyazzFS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		51814C3A157F4E84001A8FCC /* SBJson.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SBJson.framework;
+			remoteRef = 51814C39157F4E84001A8FCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51814C3C157F4E84001A8FCC /* SBJsonTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SBJsonTests.octest;
+			remoteRef = 51814C3B157F4E84001A8FCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51814C3E157F4E84001A8FCC /* libsbjson-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libsbjson-ios.a";
+			remoteRef = 51814C3D157F4E84001A8FCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51814C40157F4E84001A8FCC /* sbjson-iosTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "sbjson-iosTests.octest";
+			remoteRef = 51814C3F157F4E84001A8FCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515BD685157F4B1000BAD56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BD696157F4B1000BAD56B /* InfoPlist.strings in Resources */,
+				515BD69C157F4B1000BAD56B /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515BD683157F4B1000BAD56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BD698157F4B1000BAD56B /* main.m in Sources */,
+				515BD69F157F4B1000BAD56B /* GFSAppDelegate.m in Sources */,
+				51814C1F157F4B8B001A8FCC /* GFSMainFuseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		515BD694157F4B1000BAD56B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515BD695157F4B1000BAD56B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		515BD69A157F4B1000BAD56B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515BD69B157F4B1000BAD56B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515BD6A3157F4B1100BAD56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		515BD6A4157F4B1100BAD56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		515BD6A6157F4B1100BAD56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GyazzFS/GyazzFS-Prefix.pch";
+				INFOPLIST_FILE = "GyazzFS/GyazzFS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		515BD6A7157F4B1100BAD56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GyazzFS/GyazzFS-Prefix.pch";
+				INFOPLIST_FILE = "GyazzFS/GyazzFS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515BD681157F4B1000BAD56B /* Build configuration list for PBXProject "GyazzFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515BD6A3157F4B1100BAD56B /* Debug */,
+				515BD6A4157F4B1100BAD56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515BD6A5157F4B1100BAD56B /* Build configuration list for PBXNativeTarget "GyazzFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515BD6A6157F4B1100BAD56B /* Debug */,
+				515BD6A7157F4B1100BAD56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515BD67E157F4B1000BAD56B /* Project object */;
+}
